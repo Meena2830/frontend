@@ -1,0 +1,80 @@
+/* Container styling */
+.task-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styling */
+  .task-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Form styling */
+  .task-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* Form input styling */
+  .task-container input,
+  .task-container textarea,
+  .task-container select {
+    width: 100%;
+    
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  /* Form textarea specific styling */
+  .task-container textarea {
+    height: 100px;
+    resize: vertical; /* Allow vertical resizing only */
+  }
+  
+  /* Form button styling */
+  .task-container button {
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .task-container button:hover {
+    background: #0056b3;
+  }
+  
+  /* Error and success message styling */
+  .task-container p {
+    margin: 10px 0;
+  }
+  
+  .task-container p.error {
+    color: red;
+  }
+  
+  .task-container p.success {
+    color: green;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .task-container {
+      padding: 15px;
+    }
+  }
+  
